@@ -10,7 +10,7 @@
     Punto v1, v2, v3;
  public: 
     Triangulo();
-    Trianguilo(Punto _v1, Punto _v2, Punto _v3);
+    Triangulo(Punto _v1, Punto _v2, Punto _v3);
 
     //Getter
     Punto getVertice1();
@@ -22,8 +22,10 @@
     void setVertice2(Punto _v2);
     void setVertice3(Punto _v3);
 
-    
-
+    //Otros Metodos
+    double perimetro( );
+    double area ( );
+    std::string str( );
  };
 
  
